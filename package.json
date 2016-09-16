@@ -1,0 +1,27 @@
+{
+  "name": "phaser-sandbox",
+  "version": "0.0.1",
+  "description": "Just another one sandbox for my experiments",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrfrac/phaser-sandbox.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/mrfrac/phaser-sandbox#readme",
+  "dependencies": {
+    "phaser": "^2.6.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "gulp serve"
+  }
+}
